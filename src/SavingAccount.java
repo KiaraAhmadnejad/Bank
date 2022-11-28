@@ -6,6 +6,7 @@ public class SavingAccount extends Account{
 
     //Constructors
 
+    public SavingsAccount(){}
     // Methods
 
     // Getter / Setters
