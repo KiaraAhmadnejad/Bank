@@ -1,14 +1,17 @@
 public class Account {
 
     //Attributes
-    String owner;
+    Customer owner;
     double balance;
-    int transaction;
+    int accountNumber;
 
     // Constructors
     public Account(){}
 
-    // Methods
+    public Customer getOwner() {
+        return owner;
+    }
+// Methods
 
     // Getters/Setters
 }

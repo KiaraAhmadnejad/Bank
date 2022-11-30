@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Bank {
 
-    // Attribudes
+    // Attributes
     ArrayList<Customer> customers = new ArrayList<>();
     ArrayList<Account> accounts = new ArrayList<>();
     Scanner myScan = new Scanner(System.in);
@@ -38,11 +38,10 @@ public class Bank {
             System.out.println();e.getMessage();
             System.out.println("Något gick fel!!");
         }
+        }
+    }
+}
 
     // Methods
 
-
-
     //Getters/setters
-
-}
